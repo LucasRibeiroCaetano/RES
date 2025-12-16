@@ -12,8 +12,6 @@ The Digital Wallet system is a secure mobile application designed for users to s
 
 Technical drivers include the need for robust encryption (to support UC8: Manage Security), scalable architecture to handle concurrent transactions (UC5: Pay Merchant), and strict consistency for account balances (UC4: Transfer Money). Business drivers focus on building trust to compete with established wallets and ensuring regulatory compliance (GDPR, PCI-DSS).
 
----
-
 ### 1. Extensive List of Potential Quality Attributes from ISO 25010
 Based on the ISO 25010 software quality model, the following is the list of potential quality attributes relevant to our Digital Wallet system. We focused strictly on non-functional characteristics:
 
@@ -57,8 +55,6 @@ Based on the ISO 25010 software quality model, the following is the list of pote
 
 For prioritization, we selected the following seven attributes as most relevant: Security, Reliability, Usability, Performance Efficiency, Compatibility, Maintainability, and Portability.
 
----
-
 ### 2. Prioritization Criteria and Relative Weights
 We defined four prioritization criteria to evaluate the quality attributes. Each criterion is described below, along with its relative weight (using Fibonacci sequence values: 3, 5, 8, 13) and the relevant actors.
 
@@ -80,3 +76,4 @@ We defined four prioritization criteria to evaluate the quality attributes. Each
 4.  **Technical Feasibility (Weight: 3)**
     * *Description:* Considers the ease of implementation given current technology and team expertise.
     * *Relevant Actors:* Developer.
+
